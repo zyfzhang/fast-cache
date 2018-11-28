@@ -8,6 +8,9 @@ class FastCache{
     get(key){
         return this.list[key]
     }
+    clear(){
+        console.log("switch branch")
+    }
 }
 
 window.FastCache =  FastCache
